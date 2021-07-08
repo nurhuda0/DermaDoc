@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#365692</color>
+    <color name="colorPrimaryDark">#162f5d</color>
+    <color name="backgroundcolor">#e8ecf2</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="iconcolor">#204486</color>
+    <color name="biru">#203357</color>
+    <color name="biruabu">#4c5b78</color>
+    <color name="white">#fff</color>
+    <color name="backgroundhome">#203357</color>
+    <color name="black">#000</color>
+</resources>

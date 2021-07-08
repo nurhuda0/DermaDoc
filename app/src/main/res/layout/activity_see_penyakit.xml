@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeePenyakit">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_weight="1"
+        tools:ignore="MissingConstraints">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:background="@color/biru" >
+                <TextView
+                    android:padding="15dp"
+                    android:text="P1"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj1"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp1"
+                    android:layout_margin="5dp"
+                    android:text="tampilkan"
+                    android:textColor="@color/biru"
+                    android:background="@drawable/white_button_background"
+                    android:onClick="launch_tampil1">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P2"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj2"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp2"
+                    android:text="tampilkan"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_background"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil2">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P3"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:text="@string/pj3"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp3"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil3">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P4"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:textColor="@color/biru"
+                    android:text="Tinea Versikolor (Panu)"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tbtp4"
+                    android:padding="15dp"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp4"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/backgroundcolor"
+                    android:layout_margin="5dp"
+                    android:text="tampilkan"
+                    android:onClick="launch_tampil4">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P5"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj5"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp5"
+                    android:layout_margin="5dp"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:onClick="launch_tampil5">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P6"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:textColor="@color/biru"
+                    android:text="@string/pj6"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp6"
+                    android:text="tampilkan"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_background"
+                    android:onClick="launch_tampil6">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P7"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj7"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp7"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil7">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P8"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj8"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp8"
+                    android:text="tampilkan"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_background"
+                    android:onClick="launch_tampil8">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P9"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj9"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp9"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil9">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P10"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj10"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp10"
+                    android:text="tampilkan"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil10">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P11"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj11"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp11"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil11">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P12"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj12"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp12"
+                    android:text="tampilkan"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil12">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P13"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj13"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp13"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil13">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P14"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj14"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp14"
+                    android:text="tampilkan"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil14">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P15"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj15"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp15"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil15">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P16"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj16"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp16"
+                    android:text="tampilkan"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil16">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P17"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj17"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp17"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil17">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P18"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj18"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp18"
+                    android:text="tampilkan"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil18">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P19"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj19"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp19"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil19">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P20"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj20"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp20"
+                    android:text="tampilkan"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil20">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P21"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj21"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp21"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil21">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P22"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj22"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp22"
+                    android:text="tampilkan"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil22">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P23"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj23"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp23"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil23">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P24"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj24"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/backgroundcolor">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp24"
+                    android:text="tampilkan"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil24">
+                </Button>
+            </TableRow>
+
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:padding="15dp"
+                    android:text="P25"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:text="@string/pj25"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/biru">
+                <TextView
+                    android:text="">
+                </TextView>
+                <Button
+                    android:id="@+id/tmp25"
+                    android:text="tampilkan"
+                    android:background="@drawable/white_button_background"
+                    android:textColor="@color/biru"
+                    android:layout_margin="5dp"
+                    android:onClick="launch_tampil25">
+                </Button>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,199 @@
+<!--
+  ~ Copyright (C) 2018 Google Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <string-array name="gejala_penyakit">
+        <item>1. Adanya rasa gatal</item>
+        <item>2. Adanya elemen jamur</item>
+        <item>3. Adanya sisik halus</item>
+        <item>4. Adanya sisik kasar</item>
+        <item>5. Sisik menyerupai lingkaran bermata 1</item>
+        <item>6. Adanya makula perubahan pada warna kulit</item>
+        <item>7. Kulit berwarna merah kehitaman</item>
+        <item>8. Adanya bintik kemerahan</item>
+        <item>9. Timbulnya bintik-bintik berwarna merah kuning</item>
+        <item>10. Timbulnya bintik hitam kecoklatan</item>
+
+        <item>11. Adanya butiran-butiran kuning kehijauan</item>
+        <item>12. Adanya rasa pedih pada kulit</item>
+        <item>13. Kulit panas seperti terbakar</item>
+        <item>14. Adanya rasa nyeri pada otot</item>
+        <item>15. Adanya skuama</item>
+        <item>16. Skuama lebih tebal dan berlapis lapis</item>
+        <item>17. Timbulnya lesi</item>
+        <item>18. Lesi menyerupai kembang kol</item>
+        <item>19. Adanya pembengkakkan lesi</item>
+        <item>20. Adanya pembengkakkan kulit</item>
+
+        <item>21. Adanya nanah</item>
+        <item>22. Adanya edema</item>
+        <item>23. Adanya Postula</item>
+        <item>24. Adanya Vesikopustula miliar</item>
+        <item>25. Ada vesikel</item>
+        <item>26. Ada vesikula muliar dan dalam</item>
+        <item>27. Adanya tumor/kulit</item>
+        <item>28. Adanya kelainan bentuk pada kaki</item>
+        <item>29. Adanya pembengkakkan/peradangan pembuluh limfe</item>
+        <item>30. Adanya jembatan-jembatan kutil</item>
+
+        <item>31. Adanya fisura</item>
+        <item>32. Rambut mudah putus</item>
+        <item>33. Warna rambut kusam</item>
+        <item>34. Berbau busuk</item>
+        <item>35. Tampak bisul-bisul kecil pada kulit kepala</item>
+        <item>36. Kuku berwarna hitam coklat tak bercahaya</item>
+        <item>37. Fistel mengeluarkan eksudat keputih-putihan</item>
+        <item>38. Tampak reaksi radang pada folikel</item>
+        <item>39. Timbulnya hiperkeratotik/hyperkeratosis</item>
+        <item>40. Timbul fistel-fistel</item>
+
+        <item>41. Timbul papula/Nodula</item>
+        <item>42. Terjadinya eritema</item>
+        <item>43. Timbulnya ulkus</item>
+        <item>44. Munculnya ruam melingkar kemerahan atau keperakan pada kulit</item>
+        <item>45. Terjadi peradangan</item>
+        <item>46. Muncul luka melepuh</item>
+        <item>47. Ada rusaknya kuku</item>
+        <item>48. Warna kuku menjadi suram (berjamur kuning)</item>
+        <item>49. Ada nyeri kuku disertai penebalan</item>
+        <item>50. Ada krusta</item>
+
+        <item>51. Ada maserasi yang terjadi pada sela-sela jari kaki</item>
+        <item>52. Ada maserasi berupa kulit putih dan rapuh</item>
+        <item>53. Ada bintik merah kuning, krusta yang berbentuk cawan (skutula)</item>
+        <item>54. Rambut diatas skutula putus-putus</item>
+        <item>55. Rambut mudah lepas dan tidak mengkilat lagi</item>
+        <item>56. Ada benjolan-benjolan hitam di luar permukaan rambut</item>
+        <item>57 Ada benjolan berbentuk bulat atau lonjong</item>
+        <item>58. Tampak hifa endotrik (dalam rambut) sampai ektotrik (di luar rambut)</item>
+        <item>59. Benjolan berwarna tengguli dan ditemukan spora</item>
+        <item>60. Terderngar bunyi seperti kawat apabila rambut disisir</item>
+
+        <item>61. Ada benjolan memanjang pada rambut</item>
+        <item>62. Benjolan tidak padat</item>
+        <item>63. Benjolan mudah dilepas dari rambut</item>
+        <item>64. Benjolan berwarna putih kekuningan</item>
+        <item>65. Benjolan tidak mudah dilepas dari rambut</item>
+        <item>66. Benjolan melingkari batang rambut</item>
+        <item>67. Benjolan menebal pada bagian tengah</item>
+        <item>68. Ada batuk darah</item>
+        <item>69. Ada rasa sesak nafas</item>
+        <item>70. Ada rasa nyeri atau sakit pada dada</item>
+
+        <item>71. Ada rasa demam</item>
+        <item>72. Menggigil</item>
+        <item>73. Lemah</item>
+        <item>74. Tidak nafsu makan</item>
+        <item>75. Terjadi penurunan berat badan</item>
+        <item>76. Sakit kepala hebat</item>
+        <item>77. Kejang</item>
+        <item>78. Daya kekebalan tubuh menurun</item>
+        <item>79. Ada lesi oseosa menyakitkan di tulang panjang, tengkorak, tulang belkang, dan sendi</item>
+        <item>80. Ada diplopia</item>
+
+        <item>81. Terasa pandangan kabur</item>
+        <item>82. Terjadi ataksia dan afasia</item>
+        <item>83. Muntah </item>
+        <item>84. Terjadi tinnitus</item>
+        <item>85. Ada perubahan memori</item>
+        <item>86. Perilaku tidak sesuai</item>
+        <item>87. Terjadi iritabilitas</item>
+        <item>88. Terjadi gejala psikotik </item>
+        <item>89. Ada papula fasial merah</item>
+        <item>90. Ada rasa nyeri beserta benjolan </item>
+
+        <item>91. Ada fistula dengan cekungan dikulit disertai cairan putih</item>
+        <item>92. Ada asma</item>
+        <item>93. Batuk berlendir</item>
+        <item>94. Terjadi mengi</item>
+        <item>95. Mimisan </item>
+        <item>96. Pembengkakan wajah pada sastu sisi</item>
+        <item>97. Batuk kering</item>
+        <item>98. Ter jadi anoreksia</item>
+        <item>99. Terjadi keringat yang berlebihan</item>
+        <item>100. Leher kaku</item>
+
+        <item>101. Ada rasa sakit pada persendian</item>
+        <item>102. Ada ruam kulit </item>
+        <item>103. Timbul kutil</item>
+        <item>104. Batuk berdahak</item>
+        <item>105. Keringat cukup banyak</item>
+        <item>106. Bercak-bercak putih dan kasar</item>
+
+
+    </string-array>
+    <string name="app_name">DermaDoc</string>
+    <string name="button_main">Send</string>
+    <string name="editText_main">Enter Your Message Here</string>
+    <string name="text_header">Message Received</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_second">Enter Your Reply Here</string>
+    <string name="text_header_reply">Reply Received</string>
+
+    <string name="amirip">DEFAULT</string>
+    <string name="pk1">Tinea kruris adalah infeksi jamur pada kulit di pangkal paha, area genital, paha bagian dalam atas atau bokong dan menyebabkan ruam bentuk cincin di daerah yang terinfeksi. Penyakit ini paling sering terjadi di tempat yang panas, kondisi lembap.</string>
+    <string name="pk2">Tinea kapitis adalah penyakit yang disebabkan oleh infeksi jamur dermatofit pada kulit kepala dan batang rambut. Gejala yang muncul dapat berupa kulit kepala bersisik dan pitak, hingga peradangan dan kebotakan yang meluas.</string>
+    <string name="pk3">Tinea Manus adalah salah satu jenis infeksi jamur menular yang menyerang tubuh bagian tangan. Siapa pun bisa mengalami tinea manum saat melakukan kontak kulit dengan seseorang yang terinfeksi jamur. Gejala infeksi jamur pada tangan ini mirip dengan beberapa penyakit kulit lain di tangan seperti pompholyx, psoriasis, atau eksim. Penyakit-penyakit ini juga dapat menyebabkan gatal dan bercak pada kulit di tangan. Namun bedanya, penyakit ini bukan disebabkan oleh infeksi jamur seperti tinea manum, dan memiliki gambaran bercak yang berbeda.</string>
+    <string name="pk4">Tinea versicolor adalah penyakit akibat infeksi jamur Malassezia yang ditemukan pada permukaan kulit. Umumnya, jamur yang secara normal tinggal pada kulit, seperti Malassezia, tidak menyebabkan masalah kesehatan. Banyak mikrobiota (atau organisme mikroskopik), termasuk jamur ini yang berperan untuk melindungi Anda dari infeksi dan patogen lain yang dapat membahayakan atau menyebabkan penyakit. Jamur dapat hidup berdampingan dengan sel tubuh dalam hubungan simbiotik, dengan sel kulit dan organisme kecil saling mendukung.</string>
+    <string name="pk5">Tinea Imbrikata adalah salah satu penyakit kulit yang disebabkan jamur Trychophyton concentricum. Penyakit ini termasuk golongan dermatofitosis kronis dengan gambaran morfologisyang khas, berupa papulo-skuamosa yang tersusun dalam lingkaran-lingkaran konsentris. Tinea imbrikata biasanya menyerang seluruh permukaan kulit berupa lingkaran-lingkaran yang bersisik kasar dan tampak menyerupai lingkaran-lingkaran bermata satu (polisiklis). Penyakit ini biasanya di derita oleh masayarakat yang hidup di daerah beriklim tropis.Kurangnya menjaga kebersihan juga mempermudah infeksi Trychophyton concentricum.</string>
+    <string name="pk6">Tinea barbae adalah infeksi jamur kulit pada area berambut di wajah dan leher. Kondisi ini menyerang pria dewasa dan tidak pernah terjadi pada anak-anak. Sering kali, kondisi ini dialami oleh peternak karena adanya kontak langsung dengan hewan ternak yang terinfeksi jamur.</string>
+    <string name="pk7">Tinea Nigra Palmaris adalah penyakit infeksi jamur superfisial yang menyerang telapak kaki dan tangan dengan menimbulkan gambaran khas berupa warna coklat kehitaman pada kulit. Namun pada beberapa kasus lain, penyakit ini juga ternyata diketahui dapat menyebar ke area lain dari tubuh, seperti leher atau dada. Penyakit ini biasanya lebih menyasar ke anak-anak baik pria maupun wanita khususnya daerah tropis beriklim panas namun dengan kelembapan tinggi seperti Amerika Selatan dan Tengah.</string>
+    <string name="pk8">Kandidiasis adalah infeksi jamur yang disebabkan oleh jenis jamur yaitu Candida, atau Candida albicans. Candidiasis dapat mempengaruhi area kelamin, mulut, kulit, dan darah. Selain itu, obat-obatan dan kondisi kesehatan tertentu dapat menyebabkan lebih banyak jamur yang tumbuh, terutama di area tubuh yang hangat dan lembap. Candidiasis pada vagina disebut yeast vaginitis dan candidiasis pada mulut dikenal sebagai thrush. Gejala candidiasis bervariasi tergantung pada area infeksi. Anda mungkin memiliki bagian kulit berwarna merah atau putih yang menyebabkan gatal dan iritasi. Tanda-tanda lainnya meliputi kesulitan menelan atau rasa sakit.</string>
+    <string name="pk9">Misetoma merupakan salah satu penyakit jamur kulit kronik supuratif, dan granulomatosa yang dapat disebabkan bakteri Actinomyces dan Nocardia yang termasuk Schizomycetes dan Eumycetesatau jamur berfilamen. Meski bisa menyerang seluruh bagian tubuh, namun bagian yang paling sering terjangkit adalah kaki, tangan, dada, kepala dan juga leher. Misetoma merupakan suatu syndrome yang diidentikkan dengan tumor dan sinus yang mengeluarkan pus (nanah). Misetoma sendiri terbagi menjadi dua jenis yakni Bacterial mycetoma (disebabkan oleh bakteri dan dikenal sebagai Actinomycetoma) dan fungal mycetoma (disebabkan oleh fungi dan dikenal sebagai Eumycetoma).</string>
+    <string name="pk10">Kromomikosis adalah infeksi jamur kronis pada kulit dan subkutan, yang berbentuk noduli verukosa. Penyakit ini disebabkan oleh jamur golongan dermatiaceae, yaitu jamur yang berwarna gelap.</string>
+    <string name="pk11">Sporotrikosis adalah infeksi kulit yang disebabkan oleh jamur Sporothrix schenckii. Jamur ini sering ditemukan pada duri bunga mawar, jerami, sphagnum moss (spesies lumut atau gambut; biasanya digunakan untuk media tanam anggrek atau tanaman hias lainnya), ranting, dan tanah.</string>
+    <string name="pk12">Tinea pedis adalah infeksi jamur yang menimbulkan gejala berupa ruam bersisik dan terdapat pada sela-sela jari kaki. Kutu air berisiko tinggi dialami oleh orang yang kurang menjaga kebersihan kaki, jarang mengganti kaus kaki, dan sering menggunakan sarana publik seperti pemandian umum. Jika tidak mendapatkan penanganan yang tepat, kondisi ini dapat memburuk dan menyebar ke bagian tubuh lain, bahkan memicu munculnya peradangan pada kelenjar getah bening.</string>
+    <string name="pk13">Aktinomikosis merupakan infeksi kronis subakut yang disebabkan oleh bakteri genus Actinomyces. Infeksi ini ditandai dengan pembengkakan yang terpusat atau terlokalisasi pada suatu tempat, disertai pembentukan nanah akibat proses radang (supurasi), fibrosis, terbentuknya abses, serta keluarnya cairan yang mengandung granul sulfur dari saluran nanah (sinus) pada abses.</string>
+    <string name="pk14">Tinea Korporis adalah infeksi jamur yang bisa menimbulkan ruam melingkar kemerahan atau keperakan pada kulit. Penyakit kulit ini bisa muncul di seluruh bagian tubuh, namun biasanya muncul pada lengan dan tungkai. Umumnya, tinea corporis lebih mudah menyebar di daerah beriklim hangat dan lembap.</string>
+    <string name="pk15">Tinea Unguium adalah kondisi umum yang dimulai dengan bintik putih atau kuning di bawah ujung kuku tangan atau kuku jari kaki. Infeksi jamur yang parah dapat menyebabkan kuku menghitam, menebal, dan hancur di tepi. Infeksi ini dapat mempengaruhi beberapa kuku tetapi biasanya tidak semua kuku terinfeksi.</string>
+    <string name="pk16">Tinea Interdigitalis adalah salah satu jenis tinea pedis yang disebabkan jamur T. interdigitale. Kelainan ini dapat meluas ke bawah jari (subdigital) dan juga ke sela jari yang lain. Oleh karena daerah ini lembab, maka sering terdapat maserasi. Aspek klinis maserasi berupa kulit putih dan rapuh. Bila bagian kulit yang mati ini dibersihkan, maka akan terlihat kulit baru, yang pada umumnya juga telah diserang oleh jamur. Jika perspirasi berlebihan (memakai sepatu karet/boot, mobil yang terlalu panas) maka inflamasi akut akan terjadi sehingga pasien terasa sangat gatal.  Bentuk klinis ini dapat berlangsung bertahun-tahun dengan menimbulkan sedikit keluhan sama sekali. Kelainan ini dapat disertai infeksi sekunder oleh bakteri sehingga terjadi selulitis, limfangitis dan limfadenitis.</string>
+    <string name="pk17">Kelainan di kepala dimulai dengan bintik-bintik kecil di ba(ah kulityang ber(arna merah kekuningan dan berkembang menjadi krusta yang berbentuk cawan (scutula), serta memberi bau busuk seperti bau tikus “moussy odor”. Rambut di atas skutula putus-putus dan mudah lepas dan tidak mengkilat lagi. Bila menyembuh akan meninggalkan jaringan parut danalopesia yang permanen. Penyebab utamanya adalah Trikofiton schoenleini, T. violasum dan T. gipsum.</string>
+    <string name="pk18">Piedra hitam adalah infeksi jamur pada rambut, ditandai dengan benjolan/nodus sepanjang rambut. Disebabkan oleh Piedreaia hortae. Kelainan ini menyerang rambut kepala di bawah kutikel, kemudian membengkak dan pecah untuk menyebar di sekitar rambut (shaft) dan membentuk benjolan tengguli dan hitam. Piedra ini ditemukan di daerah iklim tropis.</string>
+    <string name="pk19">Piedra Putih adalah infeksi jamur pada rambut, ditandai dengan benjolan/nodus sepanjang rambut. Disebabkan oleh Trichosporon beigelii. Kelainan ini menyerang janggut dan kumis. Benjolan berwarna coklat muda dan tidak begitu melekat pada rambut.</string>
+    <string name="pk20">Nokardiosis adalah infeksi yang disebabkan oleh bakteri yang berasal dari tanah dan air. Bakteri ini mempengaruhi sistem saraf pusat (otak dan sumsum tulang belakang), paru-paru, atau kulit. nocardia adalah penyakit serius dan bisa berakibat fatal jika dibiarkan.</string>
+    <string name="pk21">Kriptokokosis merupakan sebuah kondisi infeksi jamur yang berpengaruh besar pada sistem fisik seseorang secara menyeluruh, namun ada pula yang hanya pada sistem saraf pusatnya saja. Penderita HIV AIDS diketahui berisiko tinggi terserang infeksi jamur ini. Infeksi jamur kriptokokosis ini pun tergolong umum dan sudah banyak memakan korban, itulah mengapa kita perlu mengenali lebih dalam.</string>
+    <string name="pk22">Fikomikosis Subkutis adalah infeksi jamur dengan memberikan gejala pembengkakan dibawah kulit yang teraba keras kenyal dengan batas tegas dan terasa sakit. Bagian tubuh yang paling sering diserang penyakit ini adalah kaki, tangan, leher dan dada serta dapat meluas ke mata. Bahkan pada penderita penyakit diabetes melitus keganasan ini dapat meluas sampai ke otak, paru paru dan saluran pencernaan hinga menyebabkan penyakit sistemik.</string>
+    <string name="pk23">Aspergillosis adalah sekelompok penyakit yang disebabkan oleh sejenis jamur bernama aspergillus. Penyakit yang disebabkan oleh aspergillus umumnya memengaruhi sistem pernapasan, namun juga dapat menyebar ke bagian tubuh lainnya, seperti kulit, mata, atau sinus.</string>
+    <string name="pk24">Histoplasmosis adalah infeksi yang disebabkan karena menghirup spora dari jamur yang sering ditemukan di kotoran burung dan kelelawar. Penyakit ini sering kali menyebar ketika spora mencemari udara, sering kali selama pembersihan atau pembongkaran proyek.</string>
+    <string name="pk25">Blastomikosis adalah adalah penyakit yang disebabkan oleh infeksi dariBlastomyces dermatitidis, penyakit ini terutama menyerang paru-paru dan kemudiandapat menyebar ke seluruh tubuh lewat mengalirnya darah. Penyakit Gilchrist atau Blastomikosis adalah penyakit menular yang disebabkan olehcendawan dimorfik Blastomyces dermatitidis. Cendawan B. dermatitidis banyak ditemukan di tanah yang mengandung sisa-sisa bahan organik dan kotoran hewan.</string>
+    <string name="pj1">Tinea Kruris (Ekzema Marginatum)</string>
+    <string name="pj2">Tinea Kapitis</string>
+    <string name="pj3">Tinea Manus</string>
+    <string name="pj4">Tinea Versikolor (Panu)</string>
+    <string name="pj5">Tinea Imbrikata</string>
+    <string name="pj6"><![CDATA[Tinea Barbae & Sikosis Barbae]]></string>
+    <string name="pj7">Tinea Nigra Palmaris</string>
+    <string name="pj8">Kandidiasis</string>
+    <string name="pj9">Misetoma</string>
+    <string name="pj10">Kromomikosis</string>
+    <string name="pj11">Sporotrikosis</string>
+    <string name="pj12">Tinea Pedis (Athlete\'s Foot)</string>
+    <string name="pj13">Aktinomikosis</string>
+    <string name="pj14">Tinea Korporis (Kurap Tubuh)</string>
+    <string name="pj15">Tinea Unguium</string>
+    <string name="pj16">Tinea Interdigitalis</string>
+    <string name="pj17">Tinea Favosa</string>
+    <string name="pj18">Pidrea Hitam</string>
+    <string name="pj19">Piedra Putih</string>
+    <string name="pj20">Nokardiosis</string>
+    <string name="pj21">Kriptokokosis (Meningitis)</string>
+    <string name="pj22">Fikomikosis</string>
+    <string name="pj23">Aspergillosis</string>
+    <string name="pj24">Histoplasmosis</string>
+    <string name="pj25">Blastomikosis</string>
+
+</resources>

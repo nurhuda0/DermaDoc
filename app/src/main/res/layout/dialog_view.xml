@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroundcolor"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/bt_edit_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Lihat Data"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bt_delete_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/red_button_background"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Hapus data"
+        android:textColor="@color/white" />
+
+</LinearLayout>

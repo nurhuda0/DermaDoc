@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/backgroundcolor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Tambah Pasien"
+        android:textColor="@color/iconcolor"
+        android:textSize="18pt"
+
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_namapasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:hint="Nama Pasien"
+        android:inputType="text"
+        android:background="@drawable/background_input"/>
+
+    <EditText
+        android:id="@+id/et_usiapasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usia Pasien"
+        android:inputType="text"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_input"/>
+
+    <EditText
+        android:id="@+id/et_alamatpasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_input"
+        android:hint="Alamat Pasien"
+        android:inputType="textUri|textShortMessage|textLongMessage|text"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/bt_tambahcatatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_background"
+        android:text="Tambah Foto Catatan"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:text="PILIH GEJALA"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
